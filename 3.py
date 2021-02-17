@@ -7,7 +7,7 @@ def list_files(path, ext):
     :path (str): path
     :ext (str): file extension
     '''
-    import os
+    
     
     files = os.listdir(path)
     files_ext = [i for i in files if i.endswith(ext)]
